@@ -1,0 +1,36 @@
+{
+  "rooms": [
+    {
+      "name": "Exterior Gate A",
+      "model": "models/scp/room/Exterior/Exterior_GateA.vmdl",
+      "staticSpawn": true,
+      "position": "0,0,0",
+      "orientation":  "0,0,0",
+      "lights": [
+        {
+          "Position": "0,0,120",
+          "Orientation": "90,0,0",
+          "InnerConeAngle": 45,
+          "OuterConeAngle": 85,
+          "DynamicShadows": true
+        }
+      ]
+    },
+    {
+      "name": "Exterior Gate B",
+      "model": "models/scp/room/Exterior/Exterior_GateB.vmdl",
+      "staticSpawn": true,
+      "position": "-1786,-5303,-225",
+      "orientation": "0,-180,0",
+      "lights": [
+        {
+          "Position": "0,0,90",
+          "Orientation": "90,0,0",
+          "InnerConeAngle": 45,
+          "OuterConeAngle": 85,
+          "DynamicShadows": true
+        }
+      ]
+    }
+  ]
+}
