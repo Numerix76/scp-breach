@@ -7,8 +7,13 @@ using System.Threading.Tasks;
 
 namespace SCP;
 
-public partial class Light : SpotLightEntity
+public partial class Light : SpotLightEntity, ICloneable
 {
 	public Angles Orientation { get; set; } = Angles.Zero;
+
+	public object Clone()
+	{
+		return this.MemberwiseClone();
+	}
 
 }

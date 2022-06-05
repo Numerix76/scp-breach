@@ -1,0 +1,60 @@
+{
+  "Rooms": [
+    {
+      "Name": "EZ Straight",
+      "Model": "models/scp/room/EZ/ez_corridor_straight.vmdl",
+      "Type": "S",
+      "Lights": [
+        {
+          "Position": "0,0,120",
+          "Orientation": "90,0,0",
+          "InnerConeAngle": 45,
+          "OuterConeAngle": 85,
+          "DynamicShadows": true
+        }
+      ]
+    },
+    {
+      "Name": "EZ Corner",
+      "Model": "models/scp/room/EZ/ez_corridor_corner.vmdl",
+      "Type": "C",
+      "Lights": [
+        {
+          "Position": "0,0,120",
+          "Orientation": "90,0,0",
+          "InnerConeAngle": 45,
+          "OuterConeAngle": 85,
+          "DynamicShadows": true
+        }
+      ]
+    },
+    {
+      "Name": "EZ X",
+      "Model": "models/scp/room/EZ/ez_corridor_x_cross.vmdl",
+      "Type": "X",
+      "Lights": [
+        {
+          "Position": "0,0,120",
+          "Orientation": "90,0,0",
+          "InnerConeAngle": 45,
+          "OuterConeAngle": 85,
+          "DynamicShadows": true
+        }
+      ]
+    },
+    {
+      "Name": "EZ T",
+      "Model": "models/scp/room/EZ/ez_corridor_t_cross.vmdl",
+      "Type": "T",
+      "Lights": [
+        {
+          "Position": "0,0,120",
+          "Orientation": "90,0,0",
+          "InnerConeAngle": 45,
+          "OuterConeAngle": 85,
+          "DynamicShadows": true
+        }
+      ]
+    }
+  ]
+}
