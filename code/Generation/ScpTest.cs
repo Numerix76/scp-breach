@@ -12,32 +12,6 @@ namespace SCP;
 
 partial class ScpTest
 {
-	private static SectorsConfig SectorsConfig;
-
-	private const string filePath = "config/room_config.json";
-
-	public static SectorsConfig Config
-	{
-		get
-		{
-			if ( SectorsConfig == null )
-				SectorsConfig = LoadConfig().Result;
-			return SectorsConfig;
-		}
-	}
-
-	public static async Task<SectorsConfig> LoadConfig()
-	{
-		if ( !FileSystem.Mounted.FileExists( ScpTest.filePath ) ) return new();
-
-		var json = FileSystem.Mounted.ReadAllText( filePath );
-		SectorsConfig = JsonSerializer.Deserialize<SectorsConfig>( json );
-
-		return SectorsConfig;
-	}
-
-
-
 	[ConCmd.Server("generate_map")]
 	public static void spawn()
 	{
@@ -45,24 +19,6 @@ partial class ScpTest
 		
 		new Generator();
 		ConsoleSystem.Caller.Pawn.Transform = new Transform().WithPosition( new Vector3( 0, 0, 0 ) );
-
-		/*SectorsConfig = null;
-		var config = ScpTest.Config;
-
-		Log.Info( config );
-
-
-		foreach ( Sector sector in config.Sectors )
-		{
-			sector.Generate();
-		}
-
-		var sun = new EnvironmentLightEntity
-		{
-			Position = new Vector3( 32, 0, 192 ),
-			Rotation = Rotation.From( new Angles( 69.3447f, 103.642f, -103.642f ) ),
-			//SunAngle = 2.125f
-		};*/
 
 		var sun = new EnvironmentLightEntity
 		{

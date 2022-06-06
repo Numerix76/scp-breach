@@ -4,13 +4,13 @@
       "Name": "Exterior",
       "ShortName": "exterior",
       "ConfigFile": "config/room_exterior.json",
-      "StartPosition":  "0,0,0"
+      "StartPosition": "0,0,0"
     },
     {
       "Name": "Entrance Zone",
       "ShortName": "ez",
       "ConfigFile": "config/room_ez.json",
-      "StartPosition": "0,0 700"
+      "StartPosition": "-2000,0,700"
     }
   ]
 }

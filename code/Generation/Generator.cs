@@ -11,19 +11,19 @@ namespace SCP.Generation;
 internal class Generator
 {
 	public string MapConfigFile { get; set; }
-	private SectorsConfig sectorsConfig { get; set; }
+	private SectorConfig sectorsConfig { get; set; }
 
-	public SectorsConfig SectorsConfig
+	public SectorConfig SectorsConfig
 	{
 		get
 		{
 			if ( sectorsConfig == null )
-				sectorsConfig = LoadConfig<SectorsConfig>("config/room_config.json").Result;
+				sectorsConfig = LoadConfig<SectorConfig>("config/room_config.json");
 			return sectorsConfig;
 		}
 	}
 
-	public async Task<T> LoadConfig<T>(string file)
+	public static T LoadConfig<T>(string file)
 	{
 		if ( !FileSystem.Mounted.FileExists( file ) ) return default(T);
 
@@ -48,9 +48,7 @@ internal class Generator
 	{
 		foreach( Sector sector in SectorsConfig.Sectors )
 		{
-			sector.Map = LoadConfig<Map>( $"config/{sector.ShortName}_map_01.json" ).Result;
-
-			Log.Info( sector.Map );
+			sector.Map = LoadConfig<Map>( $"config/{sector.ShortName}_map_01.json" );
 		}
 	}
 
@@ -67,7 +65,7 @@ public class Map
 {
 	public List<List<string>> Pattern { get; set; } = new();
 
-	public List<Room> Rooms { get; set; }
+	public List<List<Room>> Rooms { get; set; } = new();
 
 	public string toString()
 	{

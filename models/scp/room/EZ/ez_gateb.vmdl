@@ -38,12 +38,12 @@
 						collision_interact_exclude = ""
 						recenter_on_parent_bone = false
 						offset_origin = [ 0.0, 0.0, 0.0 ]
-						offset_angles = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, -180.0, 0.0 ]
 						align_origin_x_type = "None"
 						align_origin_y_type = "None"
 						align_origin_z_type = "None"
 						filename = "models/scp/room/EZ/EZ_GateB.fbx"
-						import_scale = 0.3
+						import_scale = 0.307
 						maxMeshVertices = 0
 						qemError = 0.0
 						import_filter = 
@@ -62,8 +62,8 @@
 						_class = "RenderMeshFile"
 						filename = "models/scp/room/EZ/EZ_GateB.fbx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
-						import_rotation = [ 0.0, 0.0, 0.0 ]
-						import_scale = 0.3
+						import_rotation = [ 0.0, -180.0, 0.0 ]
+						import_scale = 0.307
 						align_origin_x_type = "None"
 						align_origin_y_type = "None"
 						align_origin_z_type = "None"
