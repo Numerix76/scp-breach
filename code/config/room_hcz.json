@@ -1,0 +1,186 @@
+{
+  "Rooms": [
+    {
+      "Name": "EZ Straight",
+      "Model": "models/scp/room/EZ/ez_corridor_straight.vmdl",
+      "Type": "S",
+      "LightsData": [
+        {
+          "Position": "0,0,120",
+          "Orientation": "90,0,0",
+          "InnerConeAngle": 45,
+          "OuterConeAngle": 85,
+          "DynamicShadows": true
+        }
+      ]
+    },
+    {
+      "Name": "EZ Admin",
+      "Model": "models/scp/room/EZ/ez_corridor_admin.vmdl",
+      "Type": "S",
+      "Limit": 1,
+      "Force": true,
+      "LightsData": [
+        {
+          "Position": "0,0,120",
+          "Orientation": "90,0,0",
+          "InnerConeAngle": 45,
+          "OuterConeAngle": 85,
+          "DynamicShadows": true
+        }
+      ]
+    },
+    {
+      "Name": "EZ Big stairs computers",
+      "Model": "models/scp/room/EZ/ez_corridor_big_stairs_computers.vmdl",
+      "Type": "S",
+      "Limit": 1,
+      "Force": true,
+      "LightsData": [
+        {
+          "Position": "0,0,120",
+          "Orientation": "90,0,0",
+          "InnerConeAngle": 45,
+          "OuterConeAngle": 85,
+          "DynamicShadows": true
+        }
+      ]
+    },
+    {
+      "Name": "EZ Stairs computers",
+      "Model": "models/scp/room/EZ/ez_corridor_stairs_computers.vmdl",
+      "Type": "S",
+      "Limit": 1,
+      "Force": true,
+      "LightsData": [
+        {
+          "Position": "0,0,120",
+          "Orientation": "90,0,0",
+          "InnerConeAngle": 45,
+          "OuterConeAngle": 85,
+          "DynamicShadows": true
+        }
+      ]
+    },
+    {
+      "Name": "EZ Computers",
+      "Model": "models/scp/room/EZ/ez_corridor_computers.vmdl",
+      "Type": "S",
+      "Limit": 1,
+      "Force": true,
+      "LightsData": [
+        {
+          "Position": "0,0,120",
+          "Orientation": "90,0,0",
+          "InnerConeAngle": 45,
+          "OuterConeAngle": 85,
+          "DynamicShadows": true
+        }
+      ]
+    },
+    {
+      "Name": "EZ Corner",
+      "Model": "models/scp/room/EZ/ez_corridor_corner.vmdl",
+      "Type": "C",
+      "LightsData": [
+        {
+          "Position": "0,0,120",
+          "Orientation": "90,0,0",
+          "InnerConeAngle": 45,
+          "OuterConeAngle": 85,
+          "DynamicShadows": true
+        }
+      ]
+    },
+    {
+      "Name": "EZ Intercom",
+      "Model": "models/scp/room/EZ/ez_corridor_intercom.vmdl",
+      "Type": "C",
+      "Limit": 1,
+      "Force": true,
+      "LightsData": [
+        {
+          "Position": "0,0,120",
+          "Orientation": "90,0,0",
+          "InnerConeAngle": 45,
+          "OuterConeAngle": 85,
+          "DynamicShadows": true
+        }
+      ]
+    },
+    {
+      "Name": "EZ X",
+      "Model": "models/scp/room/EZ/ez_corridor_x_cross.vmdl",
+      "Type": "X",
+      "LightsData": [
+        {
+          "Position": "0,0,120",
+          "Orientation": "90,0,0",
+          "InnerConeAngle": 45,
+          "OuterConeAngle": 85,
+          "DynamicShadows": true
+        }
+      ]
+    },
+    {
+      "Name": "EZ T",
+      "Model": "models/scp/room/EZ/ez_corridor_t_cross.vmdl",
+      "Type": "T",
+      "LightsData": [
+        {
+          "Position": "0,0,120",
+          "Orientation": "90,0,0",
+          "InnerConeAngle": 45,
+          "OuterConeAngle": 85,
+          "DynamicShadows": true
+        }
+      ]
+    },
+    {
+      "Name": "EZ Gate B",
+      "Model": "models/scp/room/EZ/ez_gateb.vmdl",
+      "Type": "SS",
+      "Limit": 1,
+      "Force": true,
+      "LightsData": [
+        {
+          "Position": "0,0,120",
+          "Orientation": "90,0,0",
+          "InnerConeAngle": 45,
+          "OuterConeAngle": 85,
+          "DynamicShadows": true
+        }
+      ]
+    },
+    {
+      "Name": "EZ Gate A",
+      "Model": "models/scp/room/EZ/ez_gatea.vmdl",
+      "Type": "SS",
+      "Limit": 1,
+      "Force": true,
+      "LightsData": [
+        {
+          "Position": "0,0,120",
+          "Orientation": "90,0,0",
+          "InnerConeAngle": 45,
+          "OuterConeAngle": 85,
+          "DynamicShadows": true
+        }
+      ]
+    },
+    {
+      "Name": "EZ Gate Stuck",
+      "Model": "models/scp/room/EZ/ez_gate_stuck.vmdl",
+      "Type": "SS",
+      "LightsData": [
+        {
+          "Position": "0,0,120",
+          "Orientation": "90,0,0",
+          "InnerConeAngle": 45,
+          "OuterConeAngle": 85,
+          "DynamicShadows": true
+        }
+      ]
+    }
+  ]
+}

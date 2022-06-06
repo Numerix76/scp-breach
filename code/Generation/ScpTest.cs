@@ -18,7 +18,7 @@ partial class ScpTest
 		ScpTest.clear_world();
 		
 		new Generator();
-		ConsoleSystem.Caller.Pawn.Transform = new Transform().WithPosition( new Vector3( 0, 0, 0 ) );
+		//ConsoleSystem.Caller.Pawn.Transform = new Transform().WithPosition( new Vector3( 0, 0, 0 ) );
 
 		var sun = new EnvironmentLightEntity
 		{

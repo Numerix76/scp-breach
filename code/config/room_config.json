@@ -11,6 +11,12 @@
       "ShortName": "ez",
       "ConfigFile": "config/room_ez.json",
       "StartPosition": "-2000,0,700"
+    },
+    {
+      "Name": "Heavy Containment Zone",
+      "ShortName": "hcz",
+      "ConfigFile": "config/room_hcz.json",
+      "StartPosition": "-2000,1884.386,700"
     }
   ]
 }
